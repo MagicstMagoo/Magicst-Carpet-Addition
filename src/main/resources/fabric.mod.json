@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Why Not Sculk",
+  "description": "将潜匿更改为大家刻进DNA里的潜声",
+  "authors": [
+    "麻瓜Magicst"
+  ],
+  "contact": {
+    "homepage": "https://io.magicst.cn/bucket",
+    "sources": "https://github.com/MagicstMagoo"
+  },
+
+  "license": "GPL-v3.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.sculk.magicst.sculk"
+    ]
+  },
+  "mixins": [
+    "m.sculk.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
