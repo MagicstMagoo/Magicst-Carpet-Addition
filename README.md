@@ -1,4 +1,5 @@
 # Magicst-Carpet-Addition
+**中文** | [English](https://github.com/MagicstMagoo/Magicst-carpet-addition/blob/main/README_EN.md)
 ## sculk自选翻译
 
 ### 因为学业问题,没办法了,这个项目先咕咕咕 哪天我有时间了再开码
