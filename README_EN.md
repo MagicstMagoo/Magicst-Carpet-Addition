@@ -1,5 +1,6 @@
 # English Ver.
 # Magicst-Carpet-Addition 
+**English** | [Chinese](https://github.com/MagicstMagoo/Magicst-carpet-addition/blob/main/README.md)
 ## sculk auto changlate
 
 ### This month I don't any time to codeing this mod , I will find a free time to updata the soure code
