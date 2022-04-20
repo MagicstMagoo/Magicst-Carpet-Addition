@@ -16,7 +16,7 @@
 
 依赖:
 
-- [Fabric Loader](https://fabricmc.net/use/) >= 0.10.2
+- [Fabric Loader](https://fabricmc.net/use/) >= 0.13.3
 - [语言逻辑包](https://io.magicst.cn/bucket/langpack.zip) >= [build-0.6.2] 服务器暂时未上架资源
 
 就酱子
