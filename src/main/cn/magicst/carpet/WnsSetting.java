@@ -41,7 +41,7 @@ public class PcaSettings {
             },
             category = {WNS, PROTOCOL}
     )
-    public static PCA_SYNC_PLAYER_ENTITY_OPTIONS pcaSyncPlayerEntity = PCA_SYNC_PLAYER_ENTITY_OPTIONS.OPS;
+    public static WNS_SYNC_PLAYER_ENTITY_OPTIONS pcaSyncPlayerEntity = PCA_SYNC_PLAYER_ENTITY_OPTIONS.OPS;
     // feature
     @Rule(
             desc = "Empty shulker boxes stack",
