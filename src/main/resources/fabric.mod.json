@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "magicst-carpet-addition",
   "version": "${version}",
 
-  "name": "Why Not Sculk",
-  "description": "将潜匿更改为大家刻进DNA里的潜声",
+  "name": "Magicst-Carpet-Addition",
+  "description": "Magicst地毯拓展",
   "authors": [
-    "麻瓜Magicst"
+    "麻瓜Magicst",
+    "shenghuo2"
   ],
   "contact": {
     "homepage": "https://io.magicst.cn/bucket",
@@ -14,12 +15,12 @@
   },
 
   "license": "GPL-v3.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "cn.sculk.magicst.sculk"
+      "cn.magicst.carpet.ModInfo"
     ]
   },
   "mixins": [
@@ -27,9 +28,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.13.3",
+    "fabricloader": ">=0.14.0",
     "fabric": "*",
-    "minecraft": "1.18.x",
+    "minecraft": "~1.19-alpha.22.11.a",
     "java": ">=17"
   },
   "suggests": {
