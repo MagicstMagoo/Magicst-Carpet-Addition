@@ -47,8 +47,8 @@ public class sendsculkpack {
     public static final ReentrantLock lock = new ReentrantLock(true);
     public static final ReentrantLock pairLock = new ReentrantLock(true);
     // Senddataack
-    private static final Identifier ENABLE_PCA_SYNC_PROTOCOL = ModInfo.id("enable_pca_sync_protocol");
-    private static final Identifier DISABLE_PCA_SYNC_PROTOCOL = ModInfo.id("disable_pca_sync_protocol");
+    private static final Identifier ENABLE_WNS_SYNC_PROTOCOL = ModInfo.id("enable_wns_sync_protocol");
+    private static final Identifier DISABLE_WNS_SYNC_PROTOCOL = ModInfo.id("disable_wns_sync_protocol");
     private static final Identifier UPDATE_ENTITY = ModInfo.id("update_entity");
     private static final Identifier UPDATE_BLOCK_ENTITY = ModInfo.id("update_block_entity");
     // regen datapack
@@ -66,12 +66,12 @@ public class sendsculkpack {
     // 通知客户端服务器数据包发送已启用
     public static void enablesendsculkpack(@NotNull ServerPlayerEntity player) {
         // 在这写如果是在 BC 端的情况下，ServerPlayNetworking.canSend 在这个时机调用会出现错误
-        ModInfo.LOGGER.debug("Try enablePcaSyncProtocol: {}", player.getName().asString());
+        ModInfo.LOGGER.debug("Try enableWnsSyncProtocol: {}", player.getName().asString());
         // bc端canSend 工作不正常
         // if (ServerPlayNetworking.canSend(player, ENABLE_RES_SYNC_PROTOCOL)) {
         PacketByteBuf buf = new PacketByteBuf(Unpooled.buffer());
-        ServerPlayNetworking.send(player, ENABLE_PCA_SYNC_PROTOCOL, buf);
-        ModInfo.LOGGER.debug("send enableSendSculkPack to {}!", player.getName().asString());
+        ServerPlayNetworking.send(player, ENABLE_WNS_SYNC_PROTOCOL, buf);
+        ModInfo.LOGGER.debug("send enableSendDataPack to {}!", player.getName().asString());
         lock.lock();
         lock.unlock();
 }
