@@ -6,6 +6,7 @@
 
 [![License](https://img.shields.io/badge/License-GPL--3.0-orange)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 [![MC Versions](https://img.shields.io/badge/For%20MC-1.19%2022w*a-red)](https://io.magicst.cn/bucket)
+[![Publish Release](https://img.shields.io/github/workflow/status/MagicstMagoo/Magicst-carpet-addition/Publish%20Release?label=Publish%20Release&style=flat-square)](https://github.com/MagicstMagoo/Magicst-carpet-addition/actions/workflows/publish.yml)
 [![Build](https://img.shields.io/badge/Build-stop-red)](https://github.com/MagicstMagoo/Magicst-carpet-addition)
 
 关于Mojang对sculk一系列方块的翻译从一开始的潜声到最后定下的幽潜
