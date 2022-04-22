@@ -1,12 +1,16 @@
 # English Ver.
 # Magicst-Carpet-Addition 
-**English** | [Chinese](https://github.com/MagicstMagoo/Magicst-carpet-addition/blob/22w15a/README.md)
+**English** | [Chinese](./README.md)
 ## sculk auto translate
 
 ### This month I don't any time to coding this mod , I will find a free time to upload the source code
 
-[![License](https://img.shields.io/badge/License-GPL--3.0-orange)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-[![MC Versions](https://img.shields.io/badge/For%20MC-1.19%2022w16b-red)](https://io.magicst.cn/bucket)
+[![License](https://img.shields.io/github/license/MagicstMagoo/Magicst-carpet-addition.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![MC Versions](https://img.shields.io/badge/For%20MC-1.19%2022w*a-red)](https://io.magicst.cn/bucket)
+[![Publish Release](https://img.shields.io/github/workflow/status/MagicstMagoo/Magicst-carpet-addition/Publish%20Release?label=Publish%20Release&style=flat-square)](https://github.com/MagicstMagoo/Magicst-carpet-addition/blob/22w16b/.github/workflows/publish.yml)
+[![Java CI with gradle](https://img.shields.io/github/workflow/status/MagicstMagoo/Magicst-carpet-addition/build?label=Build&style=flat-square)](https://github.com/MagicstMagoo/Magicst-carpet-addition/.github/workflows/build.yml)
+[![Build](https://img.shields.io/badge/Build-stop-red)](https://github.com/MagicstMagoo/Magicst-carpet-addition)
+
 
 Induct Mojang to translate sculk block from `潜声` to the lastes version `幽潜`
 
