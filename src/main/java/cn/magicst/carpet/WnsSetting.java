@@ -1,9 +1,9 @@
-package cn.sculk.magicst;
+package cn.magicst.carpet;
 
 import carpet.settings.Rule;
 import carpet.settings.RuleCategory;
 
-public class PcaSettings {
+public class WnsSettings {
 //    @Rule(desc = "Support", category = "misc")
 //    public static int intSetting = 10;
 //
@@ -29,7 +29,7 @@ public class PcaSettings {
             desc = "Support sync entity and blockEntity from server",
             category = {WNS, PROTOCOL}
     )
-    public static boolean pcaSyncProtocol = false;
+    public static boolean wnsSyncProtocol = false;
     @Rule(
             desc = "Which player entity can be sync",
             extra = {
@@ -41,7 +41,7 @@ public class PcaSettings {
             },
             category = {WNS, PROTOCOL}
     )
-    public static WNS_SYNC_PLAYER_ENTITY_OPTIONS pcaSyncPlayerEntity = PCA_SYNC_PLAYER_ENTITY_OPTIONS.OPS;
+    public static WNS_SYNC_PLAYER_ENTITY_OPTIONS wnsSyncPlayerEntity = WNS_SYNC_PLAYER_ENTITY_OPTIONS.OPS;
     // feature
     @Rule(
             desc = "Empty shulker boxes stack",
@@ -82,7 +82,7 @@ public class PcaSettings {
             desc = "spawn biome",
             category = {WNS, RuleCategory.FEATURE}
     )
-    public static PCA_SPAWN_BIOME spawnBiome = PCA_SPAWN_BIOME.DEFAULT;
+    public static WNS_SPAWN_BIOME spawnBiome = WNS_SPAWN_BIOME.DEFAULT;
     @Rule(
             desc = "quick leaf decay",
             category = {WNS, RuleCategory.FEATURE}
