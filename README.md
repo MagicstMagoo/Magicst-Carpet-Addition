@@ -4,7 +4,7 @@
 
 ### 因为学业问题,没办法了,这个项目先咕咕咕 哪天我有时间了再开码
 
-[![License](https://img.shields.io/badge/License-GPL--3.0-orange)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![License](https://img.shields.io/github/license/MagicstMagoo/Magicst-carpet-addition.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 [![MC Versions](https://img.shields.io/badge/For%20MC-1.19%2022w*a-red)](https://io.magicst.cn/bucket)
 [![Publish Release](https://img.shields.io/github/workflow/status/MagicstMagoo/Magicst-carpet-addition/Publish%20Release?label=Publish%20Release&style=flat-square)](https://github.com/MagicstMagoo/Magicst-carpet-addition/blob/22w16b/.github/workflows/publish.yml)
 [![Build](https://img.shields.io/badge/Build-stop-red)](https://github.com/MagicstMagoo/Magicst-carpet-addition)
