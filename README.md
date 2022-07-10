@@ -1,4 +1,7 @@
 # Magicst-Carpet-Addition
+
+<img alt="gift" src="./src/main/resources/assets/icon.png" width=128 height=128/>
+
 **中文** | [English](./README_EN.md)
 ### 适用于客户端和服务端 (大概吧 doge
 ### 这是一个[地毯](https://github.com/gnembon/fabric-carpet)(Carpet mod)的扩展,添加了点~~NotVanilla的~~的功能
@@ -29,3 +32,5 @@
 - 默认值: `false`
 - 参考选项: `false`, `client`, `server`
 - 分类: `MCA`
+
+### PCA

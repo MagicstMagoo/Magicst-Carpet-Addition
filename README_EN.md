@@ -1,5 +1,8 @@
 # English Ver.
 # Magicst-Carpet-Addition
+
+<img alt="gift" src="./src/main/resources/assets/icon.png" width=128 height=128/>
+
 **Chinese** | [English](./README_EN.md)
 ### Works on both client and server (Maybe doge
 ### This is an extension of the [Carpet mod](https://github.com/gnembon/fabric-carpet),added some ~~NotVanilla~~ functionality
