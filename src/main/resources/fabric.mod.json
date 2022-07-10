@@ -21,10 +21,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "cn.magicst.carpet.McaMod"
+      "cn.magicst.carpet.PcaMod"
     ],
     "client": [
-      "cn.magicst.carpet.McaMod"
+      "cn.magicst.carpet.PcaMod"
     ]
   },
   "mixins": [
