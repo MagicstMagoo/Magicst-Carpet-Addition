@@ -13,7 +13,7 @@
 
 #### Depends:
 - [Fabric Api](https://github.com/FabricMC/fabric) >= 0.39.2
-- [Carpet](https://github.com/gnembon/fabric-carpet) >= 1.4.80+v220705
+- [Carpet](https://github.com/gnembon/fabric-carpet) >= 1.4.79+v220607
 
 ## Rules
 
@@ -34,6 +34,16 @@ This function removes the RSAreport in versions after 1.19. It needs to be used 
 - Default value: `false`
 - Required options: `false`, `client`, `server`
 - Categories: `MCA`
+
+### pcaSyncProtocol
+
+plusls carpet addition sync protocol
+
+PcaSyncProtocol is a protocol for synchronizing Entity,BlockEntity between the server and the client. It is currently used by [MasaGadget](https://github.com/plusls/MasaGadget) to implement multiplayer game container preview.
+- Type: `boolean`
+- Default value: `false`
+- Required options: `true`, `false`
+- Categories: `PCA`, `protocal`
 
 If you like this works
 

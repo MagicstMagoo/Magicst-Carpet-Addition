@@ -1,8 +1,8 @@
-package com.plusls.carpet.mixin.rule.pcaSyncProtocol.entity;
+package cn.magicst.carpet.mixin.rule.pcaSyncProtocol.entity;
 
-import com.plusls.carpet.ModInfo;
-import com.plusls.carpet.PcaSettings;
-import com.plusls.carpet.network.PcaSyncProtocol;
+import cn.magicst.carpet.ModInfo;
+import cn.magicst.carpet.PcaSettings;
+import cn.magicst.carpet.network.PcaSyncProtocol;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.vehicle.AbstractMinecartEntity;
 import net.minecraft.entity.vehicle.StorageMinecartEntity;

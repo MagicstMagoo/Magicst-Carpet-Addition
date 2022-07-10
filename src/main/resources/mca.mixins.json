@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.plusls.carpet.mixin",
+  "package": "cn.magicst.carpet.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "MixinSettingsManager",

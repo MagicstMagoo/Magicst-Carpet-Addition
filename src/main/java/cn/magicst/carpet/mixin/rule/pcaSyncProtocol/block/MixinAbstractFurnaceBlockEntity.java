@@ -1,8 +1,8 @@
-package com.plusls.carpet.mixin.rule.pcaSyncProtocol.block;
+package cn.magicst.carpet.mixin.rule.pcaSyncProtocol.block;
 
-import com.plusls.carpet.ModInfo;
-import com.plusls.carpet.PcaSettings;
-import com.plusls.carpet.network.PcaSyncProtocol;
+import cn.magicst.carpet.ModInfo;
+import cn.magicst.carpet.PcaSettings;
+import cn.magicst.carpet.network.PcaSyncProtocol;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.AbstractFurnaceBlockEntity;
 import net.minecraft.block.entity.BlockEntityType;

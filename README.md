@@ -12,7 +12,7 @@
 
 #### 依赖:
 - [Fabric Api](https://github.com/FabricMC/fabric) >= 0.39.2
-- [Carpet](https://github.com/gnembon/fabric-carpet) >= 1.4.80+v220705
+- [Carpet](https://github.com/gnembon/fabric-carpet) >= 1.4.79+v220607
 
 ## 规则列表
 
@@ -33,4 +33,13 @@
 - 参考选项: `false`, `client`, `server`
 - 分类: `MCA`
 
-### PCA
+### PCA 同步协议 (pcaSyncProtocol)
+
+plusls carpet addition sync protocol
+
+PCA 同步协议是一个用于在服务端和客户端之间同步 Entity，BlockEntity 的协议，目前被 [MasaGadget](https://github.com/plusls/MasaGadget) 用于实现多人游戏容器预览。
+
+- 类型: `boolean`
+- 默认值: `false`
+- 参考选项: `true`, `false`
+- 分类: `PCA`, `protocal`
