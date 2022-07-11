@@ -23,7 +23,7 @@
   ],
   "accessWidener": "pca.accesswidener",
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": ">=0.14.6",
     "minecraft": "1.19.x",
     "carpet": ">=1.4.79+v220607"
   },
