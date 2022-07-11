@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "magicst-carpet-addition",
   "version": "${version}",
-
   "name": "Magicst-Carpet-Addition",
   "description": "Magicst Carpet Addition Mod",
   "authors": [
@@ -11,31 +10,25 @@
     "shenghuo2"
   ],
   "contact": {
-    "homepage": "https://io.magicst.cn",
+    "homepage": "https://github.com/MagicstMagoo/Magicst-Carpet-Addition",
     "sources": "https://github.com/MagicstMagoo/Magicst-Carpet-Addition"
   },
-
-  "license": "GPL-v3.0",
+  "license": "GPL-3.0",
   "icon": "assets/icon.png",
-
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "cn.magicst.carpet.PcaMod"
-    ],
-    "client": [
-      "cn.magicst.carpet.PcaMod"
-    ]
   },
   "mixins": [
     "mca.mixins.json"
   ],
   "accessWidener": "pca.accesswidener",
   "depends": {
-    "fabricloader": ">=0.14.6",
-    "fabric": "*",
+    "fabricloader": ">=0.7.4",
     "minecraft": "1.19.x",
     "carpet": ">=1.4.79+v220607"
+  },
+  "breaks": {
+    "pca": "*"
   },
   "custom": {
     "modmenu": {
