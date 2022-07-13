@@ -1,14 +1,15 @@
 # Magicst-Carpet-Addition
 
-<img alt="gift" src="./src/main/resources/assets/icon.png" width=128 height=128/>
+<img alt="icon" src="./src/main/resources/assets/icon.png" width=128 height=128/>
 
 **中文** | [English](./README_EN.md)
 ### 适用于客户端和服务端 (大概吧 doge
-### 这是一个[地毯](https://github.com/gnembon/fabric-carpet)(Carpet mod)的扩展,添加了点~~NotVanilla的~~的功能
+### 这是一个[地毯](https://github.com/gnembon/fabric-carpet)(Carpet mod)的扩展,添加了点~~NotVanilla的~~功能
 [![License](https://img.shields.io/github/license/MagicstMagoo/Magicst-Carpet-Addition?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 ![MC Versions](https://img.shields.io/badge/For%20MC-1.19.x-red?style=flat-square)
 [![Issues](https://img.shields.io/github/issues/MagicstMagoo/Magicst-Carpet-Addition?style=flat-square)](https://github.com/MagicstMagoo/Magicst-Carpet-Addition/issues)
 [![CI](https://img.shields.io/github/workflow/status/MagicstMagoo/Magicst-Carpet-Addition/build?label=Build&style=flat-square)](https://github.com/MagicstMagoo/Magicst-carpet-addition/.github/workflows/build.yml)
+[![Github Release Downloads](https://img.shields.io/github/downloads/MagicstMagoo/Magicst-Carpet-Addition/total?label=Github%20Release%20Downloads&style=flat-square)](https://github.com/MagicstMagoo/Magicst-Carpet-Additon/releases)
 
 #### 依赖:
 - [Fabric Api](https://github.com/FabricMC/fabric) >= 0.39.2

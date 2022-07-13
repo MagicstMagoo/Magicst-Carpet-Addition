@@ -36,7 +36,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.locks.ReentrantLock;
 
-@SuppressWarnings("unused")
+// main class don't touch this!
 public class PcaSyncProtocol {
 
     public static final ReentrantLock lock = new ReentrantLock(true);
