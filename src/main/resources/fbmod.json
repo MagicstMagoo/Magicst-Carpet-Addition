@@ -1,0 +1,22 @@
+{
+  "authors": [
+    "Magicst_Magoo",
+    "plusls",
+    "shenghuo2"
+  ],
+  "icon": "assets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    ""
+  ],
+  "breaks": {
+    "pca": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "parent": "carpet"
+    }
+  }
+}

@@ -1,39 +1,49 @@
 {
-  "schemaVersion": 1,
-  "id": "magicst-carpet-addition",
-  "version": "${version}",
-  "name": "Magicst-Carpet-Addition",
-  "description": "Magicst Carpet Addition Mod",
-  "authors": [
-    "Magicst_Magoo",
-    "plusls",
-    "shenghuo2"
-  ],
-  "contact": {
-    "homepage": "https://github.com/MagicstMagoo/Magicst-Carpet-Addition",
-    "sources": "https://github.com/MagicstMagoo/Magicst-Carpet-Addition",
-    "issues": "https://github.com/MagicstMagoo/Magicst-Carpet-Addition/issues"
-  },
-  "license": "GPL-3.0",
-  "icon": "assets/icon.png",
-  "environment": "*",
-  "entrypoints": {
-  },
-  "mixins": [
-    "mca.mixins.json"
-  ],
-  "accessWidener": "pca.accesswidener",
-  "depends": {
-    "quiltloader": ">=0.17.0-",
-    "minecraft": "1.19.x",
-    "carpet": ">=1.4.79+v220607"
-  },
-  "breaks": {
-    "pca": "*"
-  },
-  "custom": {
-    "modmenu": {
-      "parent": "carpet"
-    }
-  }
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "com.example",
+		"id": "magicst-carpet-addition",
+		"version": "${version}",
+		"metadata": {
+			"name": "Magicst-Carpet-Addition",
+			"description": "Magicst Carpet Addition Mod",
+			"contributors": {
+				"Magicst_Magoo": "Owner",
+                "plusls": "contributors",
+                "shenghuo2": "mascot"
+
+			},
+			"contact": {
+				"homepage": "https://github.com/MagicstMagoo/Magicst-Carpet-Addition",
+				"issues": "https://github.com/MagicstMagoo/Magicst-Carpet-Addition/issues",
+				"sources": "https://github.com/MagicstMagoo/Magicst-Carpet-Addition"
+			},
+			"icon": "assets/icon.png"
+		},
+        "license": "GPL-3.0",
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "com.example.example_mod.ExampleMod"
+		},
+        "accessWidener": "pca.accesswidener",
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=2.0.0-"
+			},
+            {
+				"id": "carpet",
+				"versions": ">=1.4.79+v220607"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.19"
+			}
+		]
+	},
+	"mixin": "mca.mixins.json"
 }

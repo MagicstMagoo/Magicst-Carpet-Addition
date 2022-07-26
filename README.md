@@ -12,7 +12,7 @@
 [![Github Release Downloads](https://img.shields.io/github/downloads/MagicstMagoo/Magicst-Carpet-Addition/total?label=Github%20Release%20Downloads&style=flat-square)](https://github.com/MagicstMagoo/Magicst-Carpet-Additon/releases)
 
 #### 依赖:
-- [Fabric Api](https://github.com/FabricMC/fabric) >= 0.39.2
+- [Quilt Api](https://www.curseforge.com/minecraft/mc-mods/qsl/files) >= 2.0.0-beta.9+0.58.0-1.19
 - [Carpet](https://github.com/gnembon/fabric-carpet) >= 1.4.79+v220607
 
 ## 规则列表
