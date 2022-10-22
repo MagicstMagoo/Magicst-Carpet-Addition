@@ -1,7 +1,7 @@
 package cn.magicst.carpet.network;
 
 import cn.magicst.carpet.ModInfo;
-import cn.magicst.carpet.PcaMod;
+import cn.magicst.carpet.Main;
 import cn.magicst.carpet.PcaSettings;
 import cn.magicst.carpet.fakefapi.PacketSender;
 import cn.magicst.carpet.fakefapi.ServerPlayNetworking;
@@ -363,8 +363,8 @@ public class PcaSyncProtocol {
         blockPosWatchPlayerSet.clear();
         entityWatchPlayerSet.clear();
         lock.unlock();
-        if (PcaMod.server != null) {
-            for (ServerPlayerEntity player : PcaMod.server.getPlayerManager().getPlayerList()) {
+        if (Main.server != null) {
+            for (ServerPlayerEntity player : Main.server.getPlayerManager().getPlayerList()) {
                 disablePcaSyncProtocol(player);
             }
         }
@@ -372,10 +372,10 @@ public class PcaSyncProtocol {
 
     // 启用 PcaSyncProtocol
     public static void enablePcaSyncProtocolGlobal() {
-        if (PcaMod.server == null) {
+        if (Main.server == null) {
             return;
         }
-        for (ServerPlayerEntity player : PcaMod.server.getPlayerManager().getPlayerList()) {
+        for (ServerPlayerEntity player : Main.server.getPlayerManager().getPlayerList()) {
             enablePcaSyncProtocol(player);
         }
     }

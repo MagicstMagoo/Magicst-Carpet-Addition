@@ -17,22 +17,15 @@
 
 ## 规则列表
 
-### 鱼群AI降智 (FixFishAi)
+### ~~鱼群AI降智 (FixFishAi)~~
+该功能已被其他模组替代
 
-该功能适用于安装了[Carpet](https://github.com/gnembon/fabric-carpet)的客户端与服务端
+~~该功能适用于安装了[Carpet](https://github.com/gnembon/fabric-carpet)的客户端与服务端~~
 
-- 类型: `boolean`
-- 默认值: `false`
-- 参考选项: `true`, `false`
-- 分类: `MCA`
-
-### RSA举报移除 (RmoveChatReport)
-
-该功能移除了1.19以后版本的举报功能 需要搭配 [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) 使用
-- 类型: `function`
-- 默认值: `false`
-- 参考选项: `false`, `client`, `server`
-- 分类: `MCA`
+- ~~类型: `boolean`~~
+- ~~默认值: `false`~~
+- ~~参考选项: `true`, `false`~~
+- ~~分类: `MCA`~~
 
 ### PCA 同步协议 (pcaSyncProtocol)
 

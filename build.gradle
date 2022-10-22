@@ -20,6 +20,7 @@ if (project.pre_release as String != "") {
 setArchivesBaseName("${project.archives_base_name}-${project.minecraft_version}")
 setVersion(real_version)
 setGroup(project.maven_group)
+
 repositories {
 	maven {
 		url "https://www.cursemaven.com"
